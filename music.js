@@ -1,5 +1,4 @@
 const Discord = require ("discord.js");
-const randomPuppy = require('random-puppy');
 
 var prefix = ("!")
 
