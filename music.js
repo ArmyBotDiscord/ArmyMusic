@@ -1,6 +1,8 @@
 const Discord = require ("discord.js");
 const randomPuppy = require('random-puppy');
 
+var prefix = ("!")
+
 if (cmd === `${prefix}4k`) {
     if (!message.channel.nsfw) return message.reply("You can use this command only on nsfw channels!");
 
